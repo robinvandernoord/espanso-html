@@ -4,8 +4,8 @@ import typing
 from pathlib import Path
 from urllib import request
 
-SOURCE = "https://raw.githubusercontent.com/w3c/html/master/entities.json"
-
+# SOURCE = "https://raw.githubusercontent.com/w3c/html/master/entities.json"
+SOURCE = "https://html.spec.whatwg.org/entities.json"
 
 def download_file(url: str):
     return request.urlopen(url)
